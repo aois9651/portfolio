@@ -1,0 +1,9 @@
+@media screen and (max-width: 800px) {
+  .slick-dots {
+    display: none !important;
+  }
+  .slick-prev,
+  .slick-next {
+    display: none !important;
+  }
+}
