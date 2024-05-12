@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+.small-header {
+  display: none;
+}
+
+.header-bg {
+  width: 90vw;
+  margin: 0 auto;
+}
+
+.big-header {
+  width: 90vw;
+  font-size: 15vw;
+  box-sizing: border-box;
+  background-color: turquoise;
+}
