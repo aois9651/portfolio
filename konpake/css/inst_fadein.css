@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+.scroll_fadein {
+  opacity: 0;
+}
+
+.fadein_animation_start {
+  animation-name: fadein_animation;
+  animation-delay: 0.2s;
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+}
+
+@keyframes fadein_animation {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.slideup {
+  transform: translateY(50px);
+}
+
