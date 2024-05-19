@@ -26,14 +26,15 @@
 }
 
 .top-mg {
-  padding-top: 240px;
+  margin-top: 100px;
+  padding-top: 140px;
   display: flex;
 }
 
 .left-width {
   width: 34.7%;
   height: auto;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
   position: relative;
 }
 
@@ -51,7 +52,39 @@
 .right-width {
   width: 61.3%;
   background-color: yellow;
-  margin: 40px 0 0 auto;
+  margin: 0 0 0 auto;
+}
+
+.top-exp {
+  margin-top: 40px;
+}
+
+.item-list {
+  list-style: inside;
+  position: relative;
+  z-index: 9999;
+}
+
+.item-list li a {
+  position: relative;
+}
+
+.item-list li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  transition: all 0.3s;
+  transform: scale(0,1);
+  transform-origin: left top;
+}
+
+.item-list li.current a::after,
+.item-list li a:hover::after {
+  transform: scale(1,1);
 }
 
 .slider {
@@ -60,11 +93,15 @@
 }
 
 .exp-box {
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .exp-box h2 {
-  margin-bottom: 8px;
+  margin-bottom: 16px;
+}
+
+.sec-4 h3 {
+  margin-bottom: 16px;
 }
 
 .tool-icon {
@@ -74,10 +111,12 @@
 
 .left-width h5 {
   margin-top: 32px;
+  position: relative;
+  z-index: 9999;
 }
 
 .left-width ul {
-  background-color: violet;
+  /* background-color: violet; */
   position: absolute;
   bottom: 0;
   list-style: inside;
@@ -85,4 +124,12 @@
 
 .left-width li {
   line-height: 1.7;
+}
+
+.left-width img {
+  margin-left: 5px;
+}
+
+.copy-box {
+  margin-bottom: 32px;
 }

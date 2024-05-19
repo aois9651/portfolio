@@ -17,6 +17,10 @@
   opacity: 0;
 }
 
+.small-header h2 {
+  padding-top: 10px;
+}
+
 .small-header.UpMove {
   animation: UpAnime 0.5s forwards;
 }
