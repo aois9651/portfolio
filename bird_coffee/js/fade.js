@@ -24,3 +24,7 @@ function fadeAnime(){
 $(window).scroll(function (){
   fadeAnime();
 });
+
+$(window).on('load',function(){
+  fadeAnime();
+});
