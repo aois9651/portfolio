@@ -189,8 +189,8 @@ h5 {
   height: 100vh;
   /* background-color: violet; */
   transition: all 1s;
-  color: rgb(255, 255, 255);
-  mix-blend-mode: exclusion;
+  /* color: rgb(255, 255, 255); */
+  /* mix-blend-mode: exclusion; */
 }
 
 #g-nav.panelactive {
