@@ -33,15 +33,15 @@ body{
 }
 
 h2 {
-  font-size: 24pt;
+  font-size: 24px;
 }
 
 h3 {
-  font-size: 14pt;
+  font-size: 18px;
 }
 
 p {
-  font-size: 10pt;
+  font-size: 14px;
   /* background-color: bisque; */
 }
 
@@ -64,7 +64,7 @@ p {
   width: 100%;
   height: 56px;
   background-color: #ebebe9;
-  opacity: 0.5;
+  opacity: 0.9;
   z-index: 19;
 }
 
@@ -176,44 +176,44 @@ p {
   max-width: 880px;
   width: 100%;
   margin: 0 auto;
+  /* background-color: yellow; */
 }
 
-.section1 {
+.w880 {
   display: flex;
-  position: relative;
   /* background-color: violet; */
 }
 
 .concept-right {
+  width: 60%;
   max-width: 560px;
   height: auto;
-  padding: 84px 56px 112px 0;
+  padding: 112px 28px 0 0;
   /* background-color: aquamarine; */
 }
 
 .concept-right h3 {
-  line-height: 1.7;
-  letter-spacing: 2.5px;
+  line-height: 45px;
+  letter-spacing: 20%;
   text-align: justify;
 }
 
 .concept-right p {
   max-width: 45vw;
   padding: 28px 0 0 56px;
-  line-height: 2;
+  line-height: 2.5;
   text-align: justify;
 }
 
-.section1 img {
-  position: absolute;
-  z-index: -2;
+.concept-img {
   width: 40%;
-  min-width: 360px;
-  bottom: -20px;
-  right: 0;
-  height: auto;
-  margin: 0 0 0 auto ;
+  margin-top: 56px;
 }
+
+.concept-img img {
+  width: 100%;
+}
+
 
 .pc-img {
   display: block !important;
@@ -227,7 +227,7 @@ p {
 .menu-box {
   max-width: 880px;
   height: 360px;
-  margin: 0 auto;
+  margin: 168px 0 auto;
 }
 
 .s-title1 {
@@ -246,7 +246,7 @@ p {
   margin-bottom: 16px;
   text-decoration: underline;
   text-decoration-color: #292929;
-  text-underline-offset: 8px;
+  text-underline-offset: 4px;
   /* border-bottom: 1px solid #292929; */
   /* background-color: yellow; */
 }
@@ -299,8 +299,8 @@ p {
 /* section3 */
 .park-1 {
   width: 880px;
-  height: 440px;
-  margin-top: 112px;
+  height: 580px;
+  margin-top: 168px;
   /* background-color: cornflowerblue; */
 }
 
@@ -336,10 +336,10 @@ p {
   width: 480px;
 }
 
+/* section-4 */
 .shop-1 {
-  width: 768px;
   height: 560px;
-  margin: 112px 56px 0;
+  margin: 112px 0;
   /* background-color: violet; */
 }
 
@@ -353,24 +353,20 @@ p {
   display: flex;
 }
 
-.item-box1 img,
-.item-box2 img {
-  width: 144px;
-  height: 210px;
+.item-box1{
+  width: 25%;
 }
 
-.item-1 ul li.item-box1 {
-  width: 144px;
-  height: 296px;
-  margin-right: 64px;
-  /* background-color: aqua; */
+.line {
+  box-sizing: border-box;
+  width: 90%;
+  padding-left: 10%;
 }
 
-.item-1 ul li.item-box2 {
-  width: 144px;
-  height: 296px;
-  /* background-color: aquamarine; */
+.line img {
+  width: 100%;
 }
+
 
 .section5 h2 {
   width: 480px;

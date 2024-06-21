@@ -17,16 +17,16 @@ body{
 }
 
 h2 {
-  font-size: 18pt;
+  font-size: 20pt;
 }
 
 h3 {
-  font-size: 14pt;
+  font-size: 16pt;
 }
 
 p {
-  font-size: 10pt;
-  line-height: 1.5;
+  font-size: 12pt;
+  line-height: 1.2;
   /* background-color: bisque; */
 }
 
@@ -59,7 +59,7 @@ p {
   width: 100%;
   height: 48px;
   background-color: #ebebe9;
-  opacity: 0.5;
+  opacity: 0.9;
   z-index: 19;
 }
 
@@ -91,7 +91,7 @@ p {
 
 nav ul {
   display: none;
-  background-color: rgba(235, 235, 233, 0.5);
+  background-color: rgba(235, 235, 233, 0.9);
   border-bottom-left-radius: 10%;
 }
 
@@ -181,16 +181,14 @@ nav ul {
 }
 
 .section1 {
-  position: relative;
   width: 100%;
-  height: 640px;
+  height: auto;
   /* background-color: violet; */
 }
 
 .section1 h3 {
   width: 90%;
-  margin: 0 auto 20px;
-  padding-top: 80px;
+  margin: 126px auto 20px;
   letter-spacing: 1.2;
   line-height: 1.7;
   text-align: justify;
@@ -202,15 +200,13 @@ nav ul {
   padding-top: 10px;
   float: right;
   line-height: 1.7;
+  text-align: justify;
 }
 
 .section1 img {
-  position: absolute;
   z-index: -2;
   width: 60%;
-  right: 0;
-  bottom: -80px;
-  
+  margin: 0 0 0 auto;
 }
 
 .pc-img {
@@ -444,8 +440,10 @@ footer a {
 }
 
 .news-letter p {
-  font-size: 11px;
+  font-size: 9pt;
+  font-weight: 300;
   padding-bottom: 8px;
+  line-height: 1.5;
 }
 
 .news-letter form {
@@ -482,11 +480,17 @@ footer a {
 }
 
 .shop-info p {
-  padding-top: 4px;
+  padding-top: 16px;
   padding-bottom: 8px;
   font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", sans-serif;
   font-size: 10px;
-  letter-spacing: 2;
+  line-height: 1.7;
+}
+
+p.small {
+  font-size: 9pt;
+  font-weight: 100;
+  padding: 24px 0 16px;
 }
 
 .pay-logo ul {

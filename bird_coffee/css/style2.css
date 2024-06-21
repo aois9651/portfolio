@@ -95,6 +95,7 @@ ul.pankuzu li:last-child a:hover,
 
 .menu-item p {
   font-size: 12px;
+  line-height: 1.5;
   height: 30px;
   /* background-color: blueviolet; */
 }

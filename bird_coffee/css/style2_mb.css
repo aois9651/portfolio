@@ -99,6 +99,7 @@ ul.pankuzu li:last-child {
 
 .menu-item p {
   font-size: 10px;
+  line-height: 1.5;
 }
 
 .menu-item-box .price-box {
