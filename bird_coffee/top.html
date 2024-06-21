@@ -42,6 +42,8 @@
         <li class="slider-item slider-item01"></li>
         <li class="slider-item slider-item02"></li>
         <li class="slider-item slider-item03"></li>
+        <li class="slider-item slider-item04"></li>
+        <li class="slider-item slider-item05"></li>
       </ul>
     </div>
     <div id="header" class="header-fixed DownMove">
@@ -88,7 +90,7 @@
         park, taking a walk while shopping, going for a weekend while walking your pet, or refreshing yourself after
         work. Find the perfect time for you, surrounded by nature and birds.</p>
       </div>
-        <div class="concept-img">
+        <div class="concept-img fadeUpTrigger">
           <img src="image/concept_mock_img.png" alt="coffee cup" class="pc-img">
           <img src="image/concept_mock_img.png" alt="coffee cup" class="mb-img">
       </div>
@@ -104,7 +106,7 @@
         <h3><a href="menu.html">view all</a></h3>
       </div>
       <div class="item-box">
-        <div class="menu-1">
+        <div class="menu-1 fadeUpTrigger">
           <a href="menu.html">
             <img src="image/menu/late_5.jpg" alt="menu">
             <div class="menu-title">
@@ -113,7 +115,7 @@
             </div>
           </a>
         </div>
-        <div class="menu-4">
+        <div class="menu-4 fadeUpTrigger delay-time02">
           <a href="menu.html">
             <img src="image/menu/season_late.jpg" alt="menu">
             <div class="menu-title">
@@ -122,7 +124,7 @@
             </div>
           </a>
         </div>
-        <div class="menu-3">
+        <div class="menu-3 fadeUpTrigger delay-time04">
           <a href="menu.html">
             <img src="image/menu/season_drink.jpg" alt="menu">
             <div class="menu-title">
@@ -147,9 +149,11 @@
           <h2><a href="park.html">YOYOGI PARK</a></h2>
           <h3><a href="park.html">and NEWS/EVENT</a></h3>
         </div>
-        <a href="park.html" class="map"><img src="image/cafe_map2.jpg" alt="map"></a>
+        <div class="fadeInTrigger">
+          <a href="park.html" class="map"><img src="image/cafe_map2.jpg" alt="map"></a>
+        </div>
       </div>
-      <div class="img"><img src="image/top_map_002.png" alt="people"></div>
+      <div class="img fadeUpTrigger delay-time03"><img src="image/top_map_002.png" alt="people"></div>
     </div>
   </div>
 
@@ -162,7 +166,7 @@
       </div>
       <div class="item-1">
         <ul>
-          <li class="item-box1">
+          <li class="item-box1 fadeInTrigger">
             <div class="line">
               <a href="store.html">
                 <img src="image/item/Pouch Mockup_1.jpg" alt="item1">
@@ -172,7 +176,7 @@
               </a>
             </div>
           </li>
-          <li class="item-box1">
+          <li class="item-box1 fadeInTrigger delay-time02">
             <div class="line">
                 <a href="store.html">
                 <img src="image/item/Pouch Mockup_2.jpg" alt="item1">
@@ -182,7 +186,7 @@
               </a>
             </div>
           </li>
-          <li class="item-box1">
+          <li class="item-box1 fadeInTrigger delay-time04">
             <div class="line">
               <a href="store.html">
                 <img src="image/item/coffee_press.jpg" alt="item1">
@@ -192,7 +196,7 @@
               </a>
             </div>
           </li>
-          <li class="item-box1">
+          <li class="item-box1 fadeInTrigger delay-time06">
             <div class="line">
               <a href="store.html">
                 <img src="image/item/coffee_dripper.jpg" alt="item1">
@@ -209,9 +213,11 @@
 
   <!-- contact -->
   <div class="section5" id="contact">
-    <a href="contact.html">
-      <h2>お問い合わせ/ CONTACT</h2>
-    </a>
+    
+      <h2><a href="contact.html">
+        お問い合わせ/ CONTACT</a>
+      </h2>
+    
   </div>
 
   <!-- footer -->
@@ -280,6 +286,7 @@
   <script src="js/menu.js"></script>
   <script src="js/SmoothScroll.js"></script>
   <script src="js/header.js"></script>
+  <script src="js/fade.js"></script>
 
   <!-- g-nav Href変更 smoothscroll用 -->
   <script>

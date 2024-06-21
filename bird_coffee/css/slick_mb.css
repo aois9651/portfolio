@@ -6,4 +6,13 @@
   .slick-next {
     display: none !important;
   }
+
+  .slider-item02 {
+    background-image: url(../image/bird/bird-mb1.jpg);
+  }
+  
+  .slider-item04 {
+    background-image: url(../image/bird/bird-mb2.jpg);
+  }
+
 }

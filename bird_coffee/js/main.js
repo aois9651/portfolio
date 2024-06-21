@@ -18,15 +18,6 @@ if (window.matchMedia('(max-width: 800px)').matches) {
 };
 
 
-// sub-nav link
-
-// const myLink = document.getElementById('sub-coffee');
-// function handleClick(event){
-//   document.getElementById("sort01").click();
-// }
-//   myLink.addEventListener("click",handleClick);
-
-
 // slick
 
 $(".slider").slick({

@@ -10,12 +10,20 @@
   background-image: url(../image/top_header_02.jpg);
 }
 
-.slider-item02 {
+.slider-item03 {
   background-image: url(../image/top_header_03.jpg);
 }
 
-.slider-item03 {
+.slider-item05 {
   background-image: url(../image/top_header_04.jpg);
+}
+
+.slider-item02 {
+  background-image: url(../image/bird/bird-7527548_1920.jpg);
+}
+
+.slider-item04 {
+  background-image: url(../image/bird/birds-3860034_1920.jpg);
 }
 
 .slider-item {
@@ -65,7 +73,7 @@
   color: transparent;
   outline: none;
   border: none;
-  width: 12px;
+  width: 10px;
   height: 12px;
   display: block;
   border-radius: 50%;
