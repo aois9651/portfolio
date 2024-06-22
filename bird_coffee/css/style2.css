@@ -22,7 +22,7 @@ ul.pankuzu li:last-child {
   box-sizing: border-box;
   text-decoration: underline;
   text-decoration-color: #292929;
-  text-underline-offset: 5px;
+  text-underline-offset: 4px;
   /* border-bottom: 1px solid #292929; */
   /* background-color: yellow; */
 }
@@ -57,7 +57,6 @@ ul.pankuzu li:last-child a:hover,
 }
 
 .sort-btn li.active {
-  margin: 0;
   border-bottom: 1px solid #292929;
 }
 
