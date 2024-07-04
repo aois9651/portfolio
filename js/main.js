@@ -9,7 +9,12 @@ $(function(){
     // $(".menu-trigger").removeClass('active');
     $("#g-nav").removeClass('panelactive');
   });
+
+  $("#g-nav img").click(function(){
+    $("#g-nav").removeClass('panelactive');
+  });
 });
+
 
 var beforePos = 0;
 function ScrollAnime(){
@@ -132,3 +137,7 @@ $.scrollify({
   scrollSpeed:1000,
 })
 
+// topbtn
+$('#topbtn').on('click', function(){
+  $('html, body').animate({scrollTop:0},500);
+});

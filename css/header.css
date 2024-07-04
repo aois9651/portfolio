@@ -3,7 +3,7 @@
 .con_header-bg {
   width: 100vw;
   height: 100px;
-  /* background-color: yellowgreen; */
+  /* background-color: #fff; */
   position: fixed;
   top: 0;
   z-index: 999;
@@ -16,7 +16,7 @@
   height: 100px;
   /* background-color: yellowgreen; */
   position: fixed;
-  z-index: 999;
+  z-index: 9999;
   top: 0;
   left: 10vw;
   animation-name: fadeDownAnime;
@@ -27,6 +27,10 @@
 
 .small-header h3 {
   padding-top: 32px;
+}
+
+.none {
+  display: none;
 }
 
 .p-position {
@@ -124,7 +128,7 @@ h2.small-name {
 #g-nav ul {
   display: none;
   position: absolute;
-  top: 0;
+  top: 220px;
   left: 10vw;
   z-index: 999;
   color: #fff;
