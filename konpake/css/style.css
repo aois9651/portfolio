@@ -208,7 +208,8 @@ h5 {
 #g-nav-list {
   position: absolute;
   right: 0;
-  width: 300px;
+  width: 60%;
+  max-width: 300px;
   display: flex;
   flex-wrap: wrap;
 }

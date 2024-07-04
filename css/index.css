@@ -4,7 +4,7 @@
   display: none;
 }
 
-.header-bg {
+/* .header-bg {
   width: 90vw;
   margin: 0 auto;
 }
@@ -13,6 +13,6 @@
   width: 90vw;
   font-size: 15vw;
   box-sizing: border-box;
-  /* background-color: turquoise; */
+  background-color: turquoise;
   margin-bottom: -2.5vh;
-}
+}  */
