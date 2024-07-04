@@ -3,9 +3,10 @@
 .con_header-bg {
   width: 100vw;
   height: 100px;
-  background-color: #fff;
+  /* background-color: yellowgreen; */
   position: fixed;
   top: 0;
+  z-index: 999;
 }
 
 
@@ -49,7 +50,7 @@
   top: 0;
 }
 
-.small-header.UpMove {
+.small-header.UpMove{
   animation: UpAnime 0.5s forwards;
 }
 
@@ -131,8 +132,4 @@ h2.small-name {
 
 #g-nav.panelactive ul {
   display: block;
-}
-
-#g-nav h2 {
-  font-family: 'Century Gothic Paneuropean', sans-serif;
 }

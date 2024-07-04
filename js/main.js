@@ -131,3 +131,4 @@ $.scrollify({
   easing:"swing",
   scrollSpeed:1000,
 })
+
