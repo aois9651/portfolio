@@ -14,7 +14,7 @@
 
 .ct-title {
   margin-top: 220px;
-  background-color: blue;
+  /* background-color: blue; */
 }
 
 .sec-top {
@@ -67,7 +67,7 @@
 .item-list {
   list-style: inside;
   position: relative;
-  z-index: 999;
+  z-index: 998;
 }
 
 .item-list li a {
@@ -285,14 +285,14 @@
 .left-width p.exp {
   margin-top: 40px;
   position: relative;
-  z-index: 9999;
+  z-index: 998;
 }
 
 .left-width a h5{
   margin-top: 40px;
   margin-left: 5px;
   position: relative;
-  z-index: 999;
+  z-index: 998;
 }
 
 .left-width ul {
@@ -301,7 +301,7 @@
   left: 5px;
   bottom: 12px;
   list-style: inside;
-  z-index: 999;
+  z-index: 998;
 }
 
 .left-width li {

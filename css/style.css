@@ -3,6 +3,7 @@
 body {
   font-family: sans-serif;
   overflow-wrap: break-word;
+  background-color: rgb(255, 255, 255);
 }
 
 html {
@@ -205,6 +206,22 @@ ul.content-list {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+.fadeOut {
+  animation-name: fadeOutAnime;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  opacity: 1;
+}
+
+@keyframes fadeOutAnime {
+  from{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
   }
 }
 

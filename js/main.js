@@ -15,6 +15,25 @@ $(function(){
   });
 });
 
+// title top
+
+function ScrollAnime2(){
+  var scroll = $(window).scrollTop();
+  if(scroll >= 220){
+    $('.small-name').removeClass('none');
+    $('.small-name').addClass('fadeDown');
+    $('.ct-title').addClass('fadeOut');
+  }else{
+    $('.small-name').addClass('none');
+    $('.ct-title').removeClass('fadeOut')
+    $('.ct-title').addClass('fadeIn')
+  }
+  beforepos = titlescroll;
+}
+$(window).scroll(function(){
+  ScrollAnime2();
+});
+
 
 var beforePos = 0;
 function ScrollAnime(){
@@ -141,3 +160,4 @@ $.scrollify({
 $('#topbtn').on('click', function(){
   $('html, body').animate({scrollTop:0},500);
 });
+
