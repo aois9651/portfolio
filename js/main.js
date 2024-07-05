@@ -13,6 +13,10 @@ $(function(){
   $("#g-nav img").click(function(){
     $("#g-nav").removeClass('panelactive');
   });
+
+  // $(".contents-click").click(function(){
+  //   $(".g-nav-contents-box").removeClass('none');
+  // });
 });
 
 // title top

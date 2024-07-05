@@ -6,7 +6,7 @@
   /* background-color: #fff; */
   position: fixed;
   top: 0;
-  z-index: 999;
+  z-index: 9999;
   color: rgb(255 , 255, 255);
   mix-blend-mode: exclusion;
 }
@@ -98,7 +98,7 @@ h2.small-name {
 
 .navtoggle {
   position: absolute;
-  z-index: 999;
+  z-index: 9999;
   top: 50%;
   right: 0;
   transform: translateY(-50%);
@@ -112,29 +112,85 @@ h2.small-name {
   left: 0vw;
   width: 100vw;
   height: 100vh;
-  background: #000;
+  background: #111;
   transition: all 0.3s;
+  mix-blend-mode: normal;
 }
 
 .g-nav-box {
   width: 80vw;
+  height: 100vh;
   margin-left: 10vw;
+  position: relative;
+  z-index: 1300;
+  /* background-color: yellow; */
 }
 
 #g-nav.panelactive {
   opacity: 1;
-  z-index: 99;
+  z-index: 1200;
 }
 
-#g-nav ul {
+#g-nav ul.g-nav-main {
   display: none;
   position: absolute;
+  width: 80vw;
+  height: 100vh;
   top: 220px;
-  left: 10vw;
+  /* left: 10vw; */
   z-index: 999;
   color: #fff;
 }
 
 #g-nav.panelactive ul {
+  display: block;
+}
+
+.g-nav-main h1{
+  font-size: 5.5vw;
+}
+
+.g-nav-main li:hover {
+  cursor: pointer;
+}
+
+.g-nav-contents {
+  position: absolute;
+  left:32vw;
+  top: 10vh;
+}
+
+.g-nav-contents a {
+  font-size: 2.5vw;
+  line-height: 1.4;
+}
+
+.g-nav-contents li a {
+  position: relative;
+}
+
+.g-nav-contents li a::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #fff;
+  transition: all 0.3s;
+  transform: scale(0,1);
+  transform-origin: left top;
+}
+
+.g-nav-contents li.current a::after,
+.g-nav-contents li a:hover::after {
+  transform: scale(1,1);
+}
+
+.g-nav-contents-box {
+  display: none;
+}
+
+.g-nav-main li:hover .g-nav-contents-box{
   display: block;
 }
