@@ -315,6 +315,18 @@
   background: url(../image/Fukushima/poster_4.jpg);
 }
 
+.slider-item61 {
+  background: url(../image/tennno-haruka/pack_1.jpg);
+}
+
+.slider-item62 {
+  background: url(../image/tennno-haruka/pack_2.jpg);
+}
+
+.slider-item63 {
+  background: url(../image/tennno-haruka/pack_3.jpg);
+}
+
 .slider-item {
   width: 100%;
   height: 100%;
@@ -474,4 +486,31 @@ h1.konpake {
 
 .fk-copy {
   margin-top: 40px;
+}
+
+.ten-position {
+  width: 30%;
+  height: 68vh;
+  margin: 0 auto;
+  /* background-color: #d7271c; */
+
+}
+
+img.ten-logo {
+  width: auto;
+  height: 68vh;
+  padding: 0 auto;
+}
+
+.ten-typo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 712/507;
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.ten-typo img {
+  width: 100%;
 }
