@@ -2,7 +2,7 @@
 
 const option = {
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 3000,
   speed:1000,
   infinite: true,
   slidesToShow: 1,
@@ -12,7 +12,7 @@ const option = {
   nextArrow: '<div class="slick-next"></div>',
   dots: true,
       pauseOnFocus: false,
-      pauseOnHover: false,
+      pauseOnHover: true,
       pauseOnDotsHover: false,
   }
 

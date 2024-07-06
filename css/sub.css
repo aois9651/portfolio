@@ -17,6 +17,11 @@
   /* background-color: blue; */
 }
 
+.top-exp {
+  box-sizing: border-box;
+  padding-top: 24px;
+}
+
 .sec-top {
   height: auto;
   display: flex;
@@ -41,7 +46,7 @@
   position: -webkit-sticky;
   position: sticky;
   top: 100px;
-  margin-top: 48px;
+  margin-top: 64px;
 }
 
 .top-img img {
@@ -50,8 +55,10 @@
 
 .right-width {
   width: 61.3%;
+  height: auto;
   /* background-color: yellow; */
   margin: 0 0 0 auto;
+  position: relative;
 }
 
 .yu-gothic {
@@ -62,6 +69,48 @@
 .futura {
   font-family: 'Futura LT', sans-serif;
   padding-left: 40px;
+}
+
+.zenkaku-gothic {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  padding-left: 40px;
+}
+
+.tsukushi {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+}
+
+.color {
+  display: flex;
+  position: relative;
+}
+
+.kp-red {
+  height: 80px;
+  width: 80px;
+  background-color: #d7271c;
+  border-radius: 3%;
+  margin-right: 30px;
+}
+
+.kp-yellow {
+  height: 80px;
+  width: 80px;
+  background-color: #fff232;
+  border-radius: 3%;
+  margin-right: 30px;
+}
+
+.kp-blue {
+  width: 80px;
+  height: 80px;
+  background-color: #17489d;
+  border-radius: 3%;
+}
+
+.color p {
+  position: relative;
+  top: 85px;
 }
 
 .item-list {
@@ -198,6 +247,74 @@
   background: url(../image/bird_coffee/web_2.jpg);
 }
 
+.slider-item31 {
+  background: url(../image/konpake/logo_1.jpg);
+}
+
+.slider-item32 {
+  background: url(../image/konpake/logo_2.jpg);
+}
+
+.slider-item33 {
+  background: url(../image/konpake/logo_3.jpg);
+}
+
+.slider-item34 {
+  background: url(../image/konpake/logo_4.jpg);
+}
+
+.slider-item35 {
+  background: url(../image/konpake/flyer_1.jpg);
+}
+
+.slider-item36 {
+  background: url(../image/konpake/flyer_2.jpg);
+}
+
+.slider-item37 {
+  background: url(../image/konpake/flyer_3.jpg);
+}
+
+.slider-item38 {
+  background: url(../image/konpake/flyer_4.jpg);
+}
+
+.slider-item41 {
+  background: url(../image/konpake/web_1.jpg);
+}
+
+.slider-item42 {
+  background: url(../image/konpake/web_2.jpg);
+}
+
+.slider-item43 {
+  background: url(../image/konpake/web_3.jpg);
+}
+
+.slider-item44 {
+  background: url(../image/konpake/web_4.jpg);
+}
+
+.slider-item45 {
+  background: url(../image/konpake/web_5.jpg);
+}
+
+.slider-item51 {
+  background: url(../image/Fukushima/poster_1.jpg);
+}
+
+.slider-item52 {
+  background: url(../image/Fukushima/poster_3.jpg);
+}
+
+.slider-item53 {
+  background: url(../image/Fukushima/poster_2.jpg);
+}
+
+.slider-item54 {
+  background: url(../image/Fukushima/poster_4.jpg);
+}
+
 .slider-item {
   width: 100%;
   height: 100%;
@@ -269,7 +386,7 @@
   margin-bottom: 24px;
 }
 
-.sec-4 h3 {
+.copy-box h3 {
   margin-bottom: 16px;
 }
 
@@ -334,4 +451,27 @@ img.window {
 
 img.iphone {
   width: 20%;
+}
+
+h1.konpake {
+  font-size: 5.2vw;
+}
+
+.img-position {
+  width: 40vw;
+  margin: 20px 0 0 auto;
+}
+
+.fukushima-img {
+  width: 40vw;
+  background-color: aquamarine;
+}
+
+.fukushima-img-mock {
+  width: 100%;
+  margin-top: 80px;
+}
+
+.fk-copy {
+  margin-top: 40px;
 }
