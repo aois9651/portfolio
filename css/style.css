@@ -65,7 +65,7 @@ p {
 
 .header-bg {
   width: 80%;
-  height: 378px;
+  height: 296px;
   box-sizing: border-box;
   margin: 32px auto 0px;
   /* background-color: aqua; */
@@ -157,7 +157,7 @@ ul.content-list {
 /* fade In Up Down */
 .fadeIn {
   animation-name: fadeInAnime;
-  animation-duration: 1s;
+  animation-duration: 2s;
   animation-fill-mode: forwards;
   opacity: 0;
 }
@@ -170,6 +170,10 @@ ul.content-list {
   to {
     opacity: 1;
   }
+}
+
+.fadeUpTrigger {
+  opacity: 0;
 }
 
 .fadeUp {
@@ -245,6 +249,22 @@ ul.content-list {
 
 
 /* animation delay */
+.delay-time1 {
+  animation-delay: 0.1s;
+}
+
+.delay-time2 {
+  animation-delay: 0.2s;
+}
+
+.delay-time3 {
+  animation-delay: 0.3s;
+}
+
+.delay-time4 {
+  animation-delay: 0.4s;
+}
+
 .delay-time10 {
   animation-delay: 1.0s;
 }
