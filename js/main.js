@@ -17,22 +17,22 @@ $(function () {
 
 // title top
 
-// function ScrollAnime2() {
-//   var scroll = $(window).scrollTop();
-//   if (scroll >= 220) {
-//     $('.small-name').removeClass('none');
-//     $('.small-name').addClass('fadeDown');
-//     $('.ct-title').addClass('fadeOut');
-//   } else {
-//     $('.small-name').addClass('none');
-//     $('.ct-title').removeClass('fadeOut')
-//     $('.ct-title').addClass('fadeIn')
-//   }
-//   beforepos = titlescroll;
-// }
-// $(window).scroll(function () {
-//   ScrollAnime2();
-// });
+function ScrollAnime2() {
+  var scroll = $(window).scrollTop();
+  if (scroll >= 220) {
+    $('.small-name').removeClass('none');
+    $('.small-name').addClass('fadeDown');
+    $('.ct-title').addClass('fadeOut');
+  } else {
+    $('.small-name').addClass('none');
+    $('.ct-title').removeClass('fadeOut')
+    $('.ct-title').addClass('fadeIn')
+  }
+  // beforepos = titlescroll;
+}
+$(window).scroll(function () {
+  ScrollAnime2();
+});
 
 
 // var beforePos = 0;
@@ -162,9 +162,32 @@ $.scrollify({
 $('#topbtn').on('click', function () {
   $('html, body').animate({
     scrollTop: 0
-  }, 500);
+  }, 300);
 });
 
+$('#topbtn2').on('click', function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+});
+
+$('#topbtn3').on('click', function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+});
+
+$('#topbtn4').on('click', function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+});
+
+$('#topbtn5').on('click', function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+});
 
 // fadeUpTrigger
 
@@ -183,3 +206,34 @@ function fadeAnime() {
 $(window).scroll(function (){
   fadeAnime();
 });
+
+$(window).on('load', function(){
+  delayScrollAnime();
+});
+
+// Emblem
+
+var Emblem = {
+  init: function(el, str) {
+    var element = document.querySelector(el);
+    var text = str ? str : element.innerHTML;
+    element.innerHTML = '';
+    for (var i = 0; i < text.length; i++) {
+      var letter = text[i];
+      var span = document.createElement('span');
+      var node = document.createTextNode(letter);
+      var r = (360/text.length)*(i);
+      var x = (Math.PI/text.length).toFixed(0) * (i);
+      var y = (Math.PI/text.length).toFixed(0) * (i);
+      span.appendChild(node);
+      span.style.webkitTransform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      span.style.transform = 'rotateZ('+r+'deg) translate3d('+x+'px,'+y+'px,0)';
+      element.appendChild(span);
+    }
+  }
+};
+
+Emblem.init('.emblem1');
+Emblem.init('.emblem2');
+Emblem.init('.emblem3');
+Emblem.init('.emblem4');

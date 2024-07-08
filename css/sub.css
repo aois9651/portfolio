@@ -13,8 +13,8 @@
 }
 
 .ct-title {
-  margin-top: 220px;
-  /* background-color: blue; */
+  margin-top: 208px;
+  background-color: blue;
 }
 
 .top-exp {
@@ -45,8 +45,8 @@
 .top-img img {
   position: -webkit-sticky;
   position: sticky;
-  top: 100px;
-  margin-top: 64px;
+  top: 60px;
+  margin-top: 48px;
 }
 
 .top-img img {
