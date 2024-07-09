@@ -65,7 +65,7 @@ p {
 
 .header-bg {
   width: 80%;
-  height: 296px;
+  height: 324px;
   box-sizing: border-box;
   margin: 32px auto 0px;
   /* background-color: aqua; */
@@ -73,8 +73,8 @@ p {
 }
 
 .p-img img {
-  height: 200px;
-  margin-top: 8px;
+  height: 214px;
+  margin-top: 23px;
   margin-left: 16px;
 }
 
@@ -194,6 +194,7 @@ ul.content-list {
     transform: translateY(0);
   }
 }
+
 .fadeDown {
   animation-name: fadeDownAnime;
   animation-duration: 0.5s;

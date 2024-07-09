@@ -237,3 +237,24 @@ Emblem.init('.emblem1');
 Emblem.init('.emblem2');
 Emblem.init('.emblem3');
 Emblem.init('.emblem4');
+
+
+// load
+
+$('.btn01').on('click', function() {
+  event.preventDefault();
+  var link = $(this).attr('href');
+  $('.before').addClass('is-active1');
+  setTimeout(function(){
+    location.href = link;
+  }, 500);
+});
+
+$('.btn05').on('click', function() {
+  event.preventDefault();
+  var link = $(this).attr('href');
+  $('.before').addClass('is-active5');
+  setTimeout(function(){
+    location.href = link;
+  }, 500);
+});

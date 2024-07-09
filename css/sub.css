@@ -13,8 +13,13 @@
 }
 
 .ct-title {
-  margin-top: 208px;
-  background-color: blue;
+  margin-top: 200px;
+  /* background-color: blue; */
+}
+
+.sub-title {
+  padding-top: 20px;
+  letter-spacing: 0.3em;
 }
 
 .top-exp {
@@ -45,8 +50,9 @@
 .top-img img {
   position: -webkit-sticky;
   position: sticky;
-  top: 60px;
-  margin-top: 48px;
+  top: 100px;
+  left: 0;
+  margin-top: 80px;
 }
 
 .top-img img {
@@ -489,6 +495,10 @@ h1.konpake {
   font-size: 5.2vw;
 }
 
+h1.eoec {
+  font-size: 4.15vw;
+}
+
 .img-position {
   width: 40vw;
   margin: 20px 0 0 auto;
@@ -550,4 +560,120 @@ img.ten-logo {
 .joyl-img img {
   width: 100%;
   border: 0.5px solid #333;
+}
+
+/* load */
+.move .animation-bg1 {
+  background: #fbdc00;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg2 {
+  background: #d7271a;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg3 {
+  background: #58c2d7;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg4 {
+  background: #cfa3ca;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg5 {
+  background: #d4f028;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg6 {
+  background: #333;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.ttb .animation-bg1,
+.ttb .animation-bg2,
+.ttb .animation-bg3,
+.ttb .animation-bg4,
+.ttb .animation-bg5,
+.ttb .animation-bg6 {
+  animation-name: PageAnime-ttb;
+}
+
+@keyframes PageAnime-ttb {
+  0% {
+    transform-origin: top;
+    transform: scaleY(1);
+  
+  }
+  100% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
 }
