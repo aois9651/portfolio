@@ -86,37 +86,67 @@
   font-family: "fot-tsukubrdgothic-std", sans-serif;
 }
 
+.century-goshic {
+  font-family: "century gothic paneuropean" , sans-serif;
+  font-weight: 700;
+}
+
 .color {
   display: flex;
   position: relative;
 }
 
-.kp-red {
-  height: 80px;
-  width: 80px;
-  background-color: #d7271c;
+.color h6 {
+  line-height: 1.4;
+}
+
+.color-box {
+  width: 56px;
+  height: 56px;
   border-radius: 3%;
-  margin-right: 30px;
+  margin-right: 16px;
+}
+
+.bc-bk {
+  background-color: rgb(46, 34, 28);
+  margin-bottom: 24px;
+}
+
+.bc-ye {
+  background-color: rgb(252, 221, 0);
+  margin-bottom: 24px;
+}
+
+.bc-wh {
+  background-color: rgb(235, 235, 233);
+}
+
+.kp-red {
+  background-color: rgb(230, 31, 25);
+  margin-bottom: 24px;
 }
 
 .kp-yellow {
-  height: 80px;
-  width: 80px;
-  background-color: #fff232;
-  border-radius: 3%;
-  margin-right: 30px;
+  background-color: rgb(255, 241, 51);
+  margin-bottom: 24px;
 }
 
 .kp-blue {
-  width: 80px;
-  height: 80px;
-  background-color: #17489d;
-  border-radius: 3%;
+  background-color: rgb(23, 72, 156);
 }
 
-.color p {
-  position: relative;
-  top: 85px;
+.ee-bl {
+  background-color: rgb(12, 51, 136);
+  margin-bottom: 24px;
+}
+
+.ee-red {
+  background-color: rgb(212, 84, 51);
+  margin-bottom: 24px;
+}
+
+.ee-ye {
+  background-color: rgb(229, 255, 10);
 }
 
 .item-list {
@@ -221,6 +251,10 @@
   background: url(../image/bird_coffee/poster_mock_4.jpg);
 }
 
+.slider-item17 {
+  background: url(../image/bird_coffee/logo_5.jpg);
+}
+
 .slider-item21 {
   background: url(../image/bird_coffee/package_1.jpg);
 }
@@ -282,7 +316,7 @@
 }
 
 .slider-item38 {
-  background: url(../image/konpake/flyer_4.jpg);
+  background: url(../image/konpake/flyer_5.jpg);
 }
 
 .slider-item41 {
@@ -351,6 +385,10 @@
 
 .slider-item75 {
   background: url(../image/EOEC/logo_5.jpg);
+}
+
+.slider-item76 {
+  background: url(../image/EOEC/logo_6.jpg);
 }
 
 .slider-item {
@@ -506,7 +544,7 @@ h1.eoec {
 
 .fukushima-img {
   width: 40vw;
-  background-color: aquamarine;
+  /* background-color: aquamarine; */
 }
 
 .fukushima-img-mock {
@@ -545,16 +583,18 @@ img.ten-logo {
   width: 100%;
 }
 
-.joyl-top {
-  position: relative;
-  z-index: 9;
-  margin-top: 64px;
+.shizuku-icon img {
+  width: 80%;
+  margin-left: 10%;
 }
 
-.joyl-img {
-  width: 80vw;
-  height: auto;
-  margin-top: 40px;
+.joyl-before {
+  margin-top: 80px;
+}
+
+.before-img img {
+  width: 100%;
+  /* background-color: #58c2d7; */
 }
 
 .joyl-img img {
