@@ -258,3 +258,10 @@ $('.btn05').on('click', function() {
     location.href = link;
   }, 500);
 });
+
+// luxy
+
+window.onload = function() {
+  luxy.init();
+ }
+
