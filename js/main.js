@@ -264,4 +264,3 @@ $('.btn05').on('click', function() {
 window.onload = function() {
   luxy.init();
  }
-

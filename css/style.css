@@ -248,6 +248,22 @@ ul.content-list {
   }
 }
 
+/* rotate */
+
+.rotateY {
+  animation-name: rotateYAnime;
+  animation-duration: 0.5s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes rotateYAnime {
+  from {
+    transform: rotateY(0deg);
+  }to {
+    transform: rotateY(-360deg);
+  }
+}
+
 
 /* animation delay */
 .delay-time1 {

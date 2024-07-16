@@ -3,7 +3,7 @@ function ScrollTimelineAnime(){
 		var elemPos = $(this).offset().top;
 		var scroll = $(window).scrollTop();
 		var windowHeight = $(window).height();
-		var startPoint = 300;
+		var startPoint = 500;
 		if (scroll >= elemPos - windowHeight-startPoint){				
 			var H = $(this).outerHeight(true)
 			var percent = (scroll+startPoint - elemPos) / (H/2) *100;
@@ -20,3 +20,9 @@ function ScrollTimelineAnime(){
 $(window).on('scroll', function(){
 	ScrollTimelineAnime();// 線が伸びる関数を呼ぶ
 });
+
+// luxy
+
+window.onload = function() {
+  luxy.init();
+ }

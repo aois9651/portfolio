@@ -19,6 +19,8 @@
 
 .ct-title {
   margin-top: 200px;
+  position: relative;
+  z-index: 100;
   /* background-color: blue; */
 }
 
