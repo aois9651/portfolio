@@ -244,6 +244,7 @@ Emblem.init('.emblem2');
 Emblem.init('.emblem3');
 Emblem.init('.emblem4');
 Emblem.init('.emblem5');
+Emblem.init('.emblem6');
 
 
 // load

@@ -1,0 +1,598 @@
+@charset "utf-8";
+
+.content-width img {
+  width: 100%;
+  height: auto;
+}
+
+.big-header {
+  display: none;
+  font-size: 15vw;
+}
+
+.content-width {
+  width: 90vw;
+  margin: 0 auto;
+  height: auto;
+  /* background-color: tan; */
+}
+
+.ct-title {
+  margin-top: 160px;
+  position: relative;
+  z-index: 100;
+  /* background-color: blue; */
+}
+
+.top-img {
+  margin-top: 24px;
+}
+
+/* .sub-title {
+  padding-top: 20px;
+  letter-spacing: 0.3em;
+} */
+
+.exp-box {
+  box-sizing: border-box;
+  padding-top: 24px;
+}
+
+.exp-box h6 {
+  margin-top: 8px;
+}
+
+h3.concept {
+  margin-top: 4px;
+}
+
+.item-list {
+  list-style: inside;
+  position: relative;
+  z-index: 998;
+}
+
+ul.item-list li a {
+  font-weight: 700;
+}
+
+.yu-gothic {
+  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic";
+  padding-left: 40px;
+}
+
+.futura {
+  font-family: 'Futura LT', sans-serif;
+  padding-left: 40px;
+}
+
+.zenkaku-gothic {
+  font-family: "Zen Kaku Gothic New", sans-serif;
+  padding-left: 40px;
+}
+
+.tsukushi {
+  font-family: "fot-tsukubrdgothic-std", sans-serif;
+}
+
+.century-goshic {
+  font-family: "century gothic paneuropean" , sans-serif;
+  font-weight: 700;
+}
+
+.color {
+  display: flex;
+  position: relative;
+  padding-top: 8px;
+}
+
+.color h6 {
+  line-height: 1.4;
+}
+
+.color-box {
+  width: 56px;
+  height: 56px;
+  border-radius: 3%;
+  margin-right: 16px;
+}
+
+
+.bc-bk {
+  background-color: rgb(46, 34, 28);
+  margin-bottom: 8px;
+}
+
+.bc-ye {
+  background-color: rgb(252, 221, 0);
+  margin-bottom: 8px;
+}
+
+.bc-wh {
+  background-color: rgb(235, 235, 233);
+}
+
+.kp-red {
+  background-color: rgb(230, 31, 25);
+  margin-bottom: 8px;
+}
+
+.kp-yellow {
+  background-color: rgb(255, 241, 51);
+  margin-bottom: 8px;
+}
+
+.kp-blue {
+  background-color: rgb(23, 72, 156);
+}
+
+.ee-bl {
+  background-color: rgb(12, 51, 136);
+  margin-bottom: 8px;
+}
+
+.ee-red {
+  background-color: rgb(212, 84, 51);
+  margin-bottom: 8px;
+}
+
+.ee-ye {
+  background-color: rgb(229, 255, 10);
+}
+
+
+.top-mg {
+  padding-top: 100px;
+}
+
+p.exp {
+  margin-top: 16px;
+}
+
+h3.lead-copy {
+  line-height: 1.4;
+}
+
+.copy-box h3 {
+  margin-top: 16px;
+}
+
+.copy-box h6 {
+  margin-top: 8px;
+}
+
+h5.site-icon {
+  margin-top: 16px;
+}
+
+.site-icon img {
+  width: 20px;
+}
+
+.web-page {
+  margin-top: 24px;
+  display: flex;
+}
+
+img.window {
+  width: 75%;
+  height: 100%;
+  margin-right: 3%;
+}
+
+img.iphone {
+  width: 22%;
+}
+
+.p-goto-nav__lists {
+  margin-top: 8px;
+  list-style: inside;
+}
+
+.p-goto-nav__list:hover {
+  cursor: pointer;
+}
+
+.slider {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 712/507;
+  position: relative;
+  z-index: 1;
+  margin-top: 16px;
+  /* background-color: yellowgreen; */
+}
+
+
+.slider-item01 {
+  background: url(../../image/bird_coffee/logo_4.jpg);
+}
+
+.slider-item02 {
+  background: url(../../image/bird_coffee/logo_3.jpg);
+}
+
+.slider-item03 {
+  background: url(../../image/bird_coffee/logo_1.jpg);
+}
+
+.slider-item04 {
+  background: url(../../image/bird_coffee/logo_2.jpg);
+}
+
+.slider-item05 {
+  background: url(../../image/bird_coffee/poster_1.jpg);
+}
+
+.slider-item06 {
+  background: url(../../image/bird_coffee/poster_2.jpg);
+}
+
+.slider-item07 {
+  background: url(../../image/bird_coffee/poster_3.jpg);
+}
+
+.slider-item08 {
+  background: url(../../image/bird_coffee/poster_4.jpg);
+}
+
+.slider-item09 {
+  background: url(../../image/bird_coffee/poster_mock_1.jpg);
+}
+
+.slider-item10 {
+  background: url(../../image/bird_coffee/poster_mock_2.jpg);
+}
+
+.slider-item11 {
+  background: url(../../image/bird_coffee/poster_5.jpg);
+}
+
+.slider-item12 {
+  background: url(../../image/bird_coffee/poster_6.jpg);
+}
+
+.slider-item13 {
+  background: url(../../image/bird_coffee/poster_7.jpg);
+}
+
+.slider-item14 {
+  background: url(../../image/bird_coffee/poster_8.jpg);
+}
+
+.slider-item15 {
+  background: url(../../image/bird_coffee/poster_mock_3.jpg);
+}
+
+.slider-item16 {
+  background: url(../../image/bird_coffee/poster_mock_4.jpg);
+}
+
+.slider-item17 {
+  background: url(../../image/bird_coffee/logo_5.jpg);
+}
+
+.slider-item21 {
+  background: url(../../image/bird_coffee/package_1.jpg);
+}
+
+.slider-item22 {
+  background: url(../../image/bird_coffee/package_2.jpg);
+}
+
+.slider-item23 {
+  background: url(../../image/bird_coffee/package_3.jpg);
+}
+
+.slider-item24 {
+  background: url(../../image/bird_coffee/package_4.jpg);
+}
+
+.slider-item25 {
+  background: url(../../image/bird_coffee/package_5.jpg);
+}
+
+.slider-item26 {
+  background: url(../../image/bird_coffee/package_6.jpg);
+}
+
+.slider-item27 {
+  background: url(../../image/bird_coffee/web_1.jpg);
+}
+
+.slider-item28 {
+  background: url(../../image/bird_coffee/web_2.jpg);
+}
+
+.slider-item31 {
+  background: url(../../image/konpake/logo_1.jpg);
+}
+
+.slider-item32 {
+  background: url(../../image/konpake/logo_2.jpg);
+}
+
+.slider-item33 {
+  background: url(../../image/konpake/logo_3.jpg);
+}
+
+.slider-item34 {
+  background: url(../../image/konpake/logo_4.jpg);
+}
+
+.slider-item35 {
+  background: url(../../image/konpake/flyer_1.jpg);
+}
+
+.slider-item36 {
+  background: url(../../image/konpake/flyer_2.jpg);
+}
+
+.slider-item37 {
+  background: url(../../image/konpake/flyer_3.jpg);
+}
+
+.slider-item38 {
+  background: url(../../image/konpake/flyer_5.jpg);
+}
+
+.slider-item41 {
+  background: url(../../image/konpake/web_1.jpg);
+}
+
+.slider-item42 {
+  background: url(../../image/konpake/web_2.jpg);
+}
+
+.slider-item43 {
+  background: url(../../image/konpake/web_3.jpg);
+}
+
+.slider-item44 {
+  background: url(../../image/konpake/web_4.jpg);
+}
+
+.slider-item45 {
+  background: url(../../image/konpake/web_5.jpg);
+}
+
+.slider-item51 {
+  background: url(../../image/Fukushima/poster_1.jpg);
+}
+
+.slider-item52 {
+  background: url(../../image/Fukushima/poster_3.jpg);
+}
+
+.slider-item53 {
+  background: url(../../image/Fukushima/poster_2.jpg);
+}
+
+.slider-item54 {
+  background: url(../../image/Fukushima/poster_4.jpg);
+}
+
+.slider-item61 {
+  background: url(../../image/tennno-haruka/pack_1.jpg);
+}
+
+.slider-item62 {
+  background: url(../../image/tennno-haruka/pack_2.jpg);
+}
+
+.slider-item63 {
+  background: url(../../image/tennno-haruka/pack_3.jpg);
+}
+
+.slider-item71 {
+  background: url(../../image/EOEC/logo_1.jpg);
+}
+
+.slider-item72 {
+  background: url(../../image/EOEC/logo_2.jpg);
+}
+
+.slider-item73 {
+  background: url(../../image/EOEC/logo_3.jpg);
+}
+
+.slider-item74 {
+  background: url(../../image/EOEC/logo_4.jpg);
+}
+
+.slider-item75 {
+  background: url(../../image/EOEC/logo_5.jpg);
+}
+
+.slider-item76 {
+  background: url(../../image/EOEC/logo_6.jpg);
+}
+
+.slider-item {
+  width: 100%;
+  height: 100%;
+  aspect-ratio: 712/507;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+.slick-dots {
+  position: relative;
+  z-index: 3;
+  text-align: center;
+  margin: 24px 0 0 0;
+}
+
+.slick-dots li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+.slick-dots button {
+  color: transparent;
+  outline: none;
+  width: 8px;
+  height: 8px;
+  display: block;
+  border-radius: 50%;
+  background-color: #ccc;
+}
+
+.slick-dots .slick-active button {
+  background-color: #333;
+}
+
+
+
+
+
+/* load */
+.move .animation-bg1 {
+  background: #fbdc00;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg2 {
+  background: #d7271a;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg3 {
+  background: #58c2d7;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg4 {
+  background: #cfa3ca;
+  opacity: 1;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg5 {
+  background: #d4f028;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.move .animation-bg6 {
+  background: #333;
+  display: block;
+  content: "";
+  position: fixed;
+  z-index: 99999;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  animation-duration: 1.0s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+
+.ttb .animation-bg1,
+.ttb .animation-bg2,
+.ttb .animation-bg3,
+.ttb .animation-bg4,
+.ttb .animation-bg5,
+.ttb .animation-bg6 {
+  animation-name: PageAnime-ttb;
+}
+
+@keyframes PageAnime-ttb {
+  0% {
+    transform-origin: top;
+    transform: scaleY(1);
+  
+  }
+  100% {
+    transform-origin: top;
+    transform: scaleY(0);
+  }
+}
+
+
+.ten-position {
+  width: 30%;
+  height: 68vh;
+  margin: 0 auto;
+  /* background-color: #d7271c; */
+
+}
+
+img.ten-logo {
+  width: auto;
+  height: 68vh;
+  padding: 0 auto;
+}
+
+.ten-typo {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 712/507;
+  position: relative;
+  z-index: 1;
+  margin-top: 20px;
+}
+
+.ten-typo img {
+  width: 100%;
+}
+
+.shizuku-icon img {
+  width: 60%;
+  margin-left: 20%;
+}

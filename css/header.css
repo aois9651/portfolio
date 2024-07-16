@@ -156,12 +156,12 @@ h2.small-name {
 .g-nav-contents {
   position: absolute;
   left: 30px;
-  padding-top: 20px;
+  padding-top: 8px;
 }
 
 .g-nav-contents h2 {
   font-size: 2.5vw;
-  line-height: 1.2;
+  line-height: 3.2vw;
 
 }
 

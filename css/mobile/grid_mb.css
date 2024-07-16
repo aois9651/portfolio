@@ -305,7 +305,8 @@
 .emblem2,
 .emblem3,
 .emblem4,
-.emblem5 {
+.emblem5,
+.emblem6 {
   box-sizing: border-box;
   width: 18vw;
   height: 18vw;
@@ -320,7 +321,8 @@
 .emblem2 span,
 .emblem3 span,
 .emblem4 span,
-.emblem5 span {
+.emblem5 span,
+.emblem6 span {
   position: absolute;
   display: inline-block;
   left: 0;

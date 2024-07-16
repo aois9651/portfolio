@@ -32,10 +32,14 @@ header {
 
 .small-header h3 {
   padding-top: 32px;
-  font-size: 2vw;
+  /* font-size: 3vw; */
 }
 
 .none {
+  display: none;
+}
+
+.none2 {
   display: block;
 }
 
@@ -89,11 +93,16 @@ header {
   }
 }
 
-h2.small-name {
+/* h2.small-name {
   font-size: 48px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+} */
+
+h3.small-name {
+  width: 67%;
+  /* background-color: yellow; */
 }
 
 .navtoggle {
@@ -136,7 +145,7 @@ h2.small-name {
   position: absolute;
   width: 80vw;
   height: 100vh;
-  top: 220px;
+  top: 240px;
   /* left: 10vw; */
   z-index: 999;
   color: #fff;
@@ -157,12 +166,12 @@ h2.small-name {
 .g-nav-contents {
   position: absolute;
   left: 30px;
-  padding-top: 20px;
+  padding-top: 8px;
 }
 
 .g-nav-contents h2 {
-  font-size: 4vw;
-  line-height: 1.4;
+  font-size: 3.9vw;
+  line-height: 1.5;
 
 }
 
