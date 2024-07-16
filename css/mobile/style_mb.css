@@ -128,7 +128,7 @@ ul.content-list {
 }
 
 .tennoharuka-logo {
-  width: 50%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -177,7 +177,7 @@ ul.content-list {
 .footer {
   position: relative;
   width: 90vw;
-  height: 160px;
+  height: 320px;
   margin: 15vw 0 5vw 5vw;
   /* background-color: blue; */
 }

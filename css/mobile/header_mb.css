@@ -49,7 +49,9 @@ header {
   z-index: 9999;
   top: 32px;
   left: 50%;
-  right: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX( -50%);
 }
 
 .text-repeat {

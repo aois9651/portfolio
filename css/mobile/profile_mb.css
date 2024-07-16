@@ -4,12 +4,13 @@
   width: 60%;
   /* background-color: yellow; */
   p {
+    font-size: 12px;
     line-height: 1.4;
   }
 }
 
 .left-title h1 {
-  font-size: 6vw;
+  font-size: 7vw;
   padding-bottom: 2vw;
 }
 
@@ -21,34 +22,35 @@
   text-align: right;
   /* background-color: yellowgreen; */
   p {
+    font-size: 12px;
     line-height: 1.4;
   }
 }
 
 .right-title h1 {
-  font-size: 4.8vw;
+  font-size: 5.6vw;
   padding-top: 3%;
   padding-bottom: 2vw;
 }
 
 .area {
-  height: 120vw;
+  height: 160vw;
 }
 
 .profile-img {
-  width: 80%;
+  width: 90%;
   height: auto;
   margin-top: -14px;
   z-index: -10;
 }
 
 #luxy li img {
-  width: 10vw;
+  width: 15vw;
 }
 
 .timeline {
-  width: 50vw;
-  margin: -200px auto 0 40%;
+  width: 55vw;
+  margin: 0 auto 0 35%;
   /* background-color: violet; */
 }
 
@@ -56,21 +58,22 @@
   position: relative;
   list-style: none;
   padding: 0 0 12vw 0;
-  height: 14vw;
+  height: 20vw;
 }
 
 .timeline dt img {
   position: absolute;
-  top: -4vw;
-  left: -4vw;
+  top: -7.5vw;
+  left: -7.5vw;
   z-index: 5;
 }
 
 .timeline p {
   position: absolute;
-  top: -20%;
+  top: -15%;
   /* background-color: aqua; */
   margin: auto 0 auto 7vw ;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.4;
 }
@@ -99,7 +102,7 @@
   width: 100%;
   height: auto;
   /* background-color: yellow; */
-  margin: 130vw 0 0 auto;
+  margin: 180vw 0 0 auto;
   /* position: relative; */
 }
 
@@ -117,12 +120,13 @@ h6.career {
 }
 
 .star {
-  margin: -0.3vh 0 0 2%;
+  margin: -0.6vh 0 0 2%;
 }
 
 .star img {
-  height: 22px;
+  height: 17px;
   width: auto;
+  padding-right: 1%;
 }
 
 .back-moji {
