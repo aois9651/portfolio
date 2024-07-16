@@ -526,6 +526,10 @@ ul.item-list li a {
   display: flex;
 }
 
+.site-icon img {
+  width: 20px;
+}
+
 img.window {
   width: 75%;
   height: 100%;
