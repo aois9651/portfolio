@@ -11,78 +11,58 @@ html {
 }
 
 h1 {
-  font-size: 96px;
+  font-size: 40px;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 700;
-  line-height: 0.8;
-  /* overflow-wrap: break-word; */
-  /* background-color: tomato; */
+  line-height: 1;
+  overflow-wrap: break-word;
 }
 
 h2 {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 48px;
+  font-size: 32px;
   font-weight: 700;
 }
 
 h3 {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   font-weight: 700;
 }
 
 h4 {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 32px;
+  font-size: 24px;
   line-height: 1.2;
 }
 
 h5 {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 700;
 }
 
 h6 {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
   font-weight: 400;
 }
 
 p {
   font-family: 'Helvetica Neue', sans-serif;
-  font-size: 1.4vw;
+  font-size: 14px;
   line-height: 1.6;
   line-height: 1;
 }
 
-/* hr {
-  width: 90vw;
-  margin: 0 auto;
-} */
-
-
-
 .header-bg {
-  width: 80%;
-  height: 324px;
+  width: 90%;
+  height: 240px;
   box-sizing: border-box;
-  margin: 32px auto 0px;
+  margin: 20px auto 0px;
   /* background-color: aqua; */
   position: relative;
-}
-
-.p-img img {
-  height: 214px;
-  margin-top: 23px;
-  margin-left: 16px;
-}
-
-.big-header {
-  position: absolute;
-  right: 0;
-  top: 0;
 }
 
 .top-title {
@@ -94,9 +74,9 @@ p {
 }
 
 .content-box {
-  width: 80%;
+  width: 90%;
   margin: 0 auto;
-  height: 80vh;
+  height: auto;
   /* background-color: bisque; */
 }
 
@@ -149,9 +129,79 @@ ul.content-list {
 }
 
 .tennoharuka-logo {
-  width: 41%;
+  width: 50%;
   margin: 0 auto;
 }
+
+
+.p-position {
+  position: fixed;
+  z-index: 9999;
+  mix-blend-mode: exclusion;
+}
+
+.p-img img {
+  width: 10vw;
+  height: auto;
+  position: fixed;
+  top: 120px;
+  right: 45vw;
+  z-index: 9999;
+}
+
+.p-img:hover {
+  cursor: pointer;
+}
+
+.mix {
+  mix-blend-mode: exclusion;
+  color: rgb(255, 255, 255);
+  position: fixed;
+  z-index: 9999;
+}
+
+.top-back {
+  position: fixed;
+  top: 40px;
+}
+
+.top-back h1 {
+  line-height: 1.2;
+}
+
+.mix .text-repeat {
+  position: fixed;
+  top: 40px;
+  right: 10vw;
+}
+
+.footer {
+  position: relative;
+  width: 90vw;
+  height: 200px;
+  margin: 15vw 0 5vw 5vw;
+  /* background-color: blue; */
+}
+
+#topbtn6 {
+  position: absolute;
+  /* top: 50%; */
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX( -50%);
+}
+
+.contact {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  text-align: right;
+  p {
+    line-height: 1.4;
+  }
+}
+
 
 
 
@@ -351,7 +401,3 @@ ul.content-list {
   }
 }
 
-#footer {
-  width: 100vw;
-  height: 400px;
-}

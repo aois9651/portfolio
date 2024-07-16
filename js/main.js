@@ -189,6 +189,12 @@ $('#topbtn5').on('click', function () {
   }, 200);
 });
 
+$('#topbtn6').on('click', function () {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 200);
+});
+
 // fadeUpTrigger
 
 function fadeAnime() {
@@ -237,6 +243,7 @@ Emblem.init('.emblem1');
 Emblem.init('.emblem2');
 Emblem.init('.emblem3');
 Emblem.init('.emblem4');
+Emblem.init('.emblem5');
 
 
 // load
