@@ -35,7 +35,7 @@
 
 .exp-box {
   box-sizing: border-box;
-  padding-top: 24px;
+  padding-top: 32px;
 }
 
 .exp-box h6 {
@@ -43,41 +43,46 @@
 }
 
 h3.concept {
-  margin-top: 4px;
+  margin-top: 8px;
 }
 
 .item-list {
   list-style: inside;
   position: relative;
   z-index: 998;
+  li {
+    height: 16px;
+  }
 }
 
-ul.item-list li a {
+/* ul.item-list li a {
   font-weight: 700;
-}
+} */
 
 .yu-gothic {
-  font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic";
-  padding-left: 40px;
+  /* font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic"; */
+  padding-left: 20px;
 }
 
 .futura {
   font-family: 'Futura LT', sans-serif;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .zenkaku-gothic {
   font-family: "Zen Kaku Gothic New", sans-serif;
-  padding-left: 40px;
+  padding-left: 20px;
 }
 
 .tsukushi {
   font-family: "fot-tsukubrdgothic-std", sans-serif;
+  padding-left: 20px;
 }
 
 .century-goshic {
   font-family: "century gothic paneuropean" , sans-serif;
   font-weight: 700;
+  padding-left: 20px;
 }
 
 .color {
@@ -87,7 +92,7 @@ ul.item-list li a {
 }
 
 .color h6 {
-  line-height: 1.4;
+  line-height: 1.6;
 }
 
 .color-box {
@@ -143,6 +148,9 @@ ul.item-list li a {
 
 .top-mg {
   padding-top: 100px;
+  h3 {
+    margin-top: 8px;
+  }
 }
 
 p.exp {
@@ -159,14 +167,19 @@ h3.lead-copy {
 
 .copy-box h6 {
   margin-top: 8px;
+  margin-bottom: 24px;
 }
 
 h5.site-icon {
-  margin-top: 16px;
+  margin-top: 8px;
 }
 
 .site-icon img {
   width: 20px;
+}
+
+.comp {
+  margin-top: 40px;
 }
 
 .web-page {
@@ -178,18 +191,27 @@ img.window {
   width: 75%;
   height: 100%;
   margin-right: 3%;
+  border: 0.25px #333 solid ;
 }
 
 img.iphone {
   width: 22%;
+  border: 0.25px #333 solid 
 }
 
 .p-goto-nav__lists {
-  margin-top: 8px;
-  list-style: inside;
+  display: none;
 }
 
-.p-goto-nav__list:hover {
+.p-goto-nav__lists2 {
+  /* margin-top: 8px; */
+  list-style: inside;
+  li {
+    height: 20px;
+  }
+}
+
+.p-goto-nav__lists2:hover {
   cursor: pointer;
 }
 
