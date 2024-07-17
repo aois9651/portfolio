@@ -145,9 +145,9 @@ h3.small-name {
 #g-nav ul.g-nav-main {
   display: none;
   position: absolute;
-  width: 80vw;
+  width: 90vw;
   height: 100vh;
-  top: 240px;
+  top: 30vw;
   /* left: 10vw; */
   z-index: 999;
   color: #fff;
@@ -157,9 +157,9 @@ h3.small-name {
   display: block;
 }
 
-.g-nav-main h1{
+/* .g-nav-main h1{
   font-size: 5.5vw;
-}
+} */
 
 .g-nav-main li:hover {
   cursor: pointer;
@@ -167,13 +167,29 @@ h3.small-name {
 
 .g-nav-contents {
   position: absolute;
-  left: 30px;
-  padding-top: 8px;
+  /* right: 0px; */
+  padding-top: 40px;
+  /* text-align: right; */
+  text-align: left;
+  li {
+    /* height: 40px; */
+    margin-bottom: 20px;
+    /* background-color: yellow; */
+  }
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  border: 1px #fff solid;
+  border-radius: 50%;
+
 }
 
 .g-nav-contents h2 {
-  font-size: 3.9vw;
-  line-height: 1.5;
+  /* font-size: 4.6vw; */
+  line-height: 1;
+  margin-bottom: 24px;
 
 }
 
@@ -199,9 +215,9 @@ h3.small-name {
   transform: scale(1,1);
 }
 
-.g-nav-contents-box {
-  /* display: none; */
-}
+/* .g-nav-contents-box {
+  display: none;
+} */
 
 .g-nav-main li:hover .g-nav-contents-box{
   display: block;
