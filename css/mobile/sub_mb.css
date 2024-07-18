@@ -22,10 +22,27 @@
   position: relative;
   z-index: 100;
   /* background-color: blue; */
+  .konpake {
+    display: none;
+  }
+  .fukushima {
+    font-size: 9.8vw;
+  }
+  .eoec {
+    /* font-size: 8vw; */
+    text-align: left;
+  }
+  .joyl {
+    display: none;
+  }
 }
 
 .top-img {
-  margin-top: 24px;
+  margin-top: 40px;
+}
+
+.fuku-img {
+  display: none;
 }
 
 /* .sub-title {
@@ -76,13 +93,11 @@ h3.concept {
 
 .tsukushi {
   font-family: "fot-tsukubrdgothic-std", sans-serif;
-  padding-left: 20px;
 }
 
 .century-goshic {
   font-family: "century gothic paneuropean" , sans-serif;
   font-weight: 700;
-  padding-left: 20px;
 }
 
 .color {
@@ -617,4 +632,22 @@ img.ten-logo {
 .shizuku-icon img {
   width: 60%;
   margin-left: 20%;
+}
+
+.joyl-before {
+  display: none;
+}
+
+.joyl-img {
+  margin-top: 24px;
+  img {
+    border: 0.5px #000 solid;
+  }
+}
+
+.joyl-before2 {
+  margin-top: 24px;
+  img {
+    width: 60%;
+  }
 }

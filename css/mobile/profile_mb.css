@@ -64,7 +64,7 @@
 .timeline dt img {
   position: absolute;
   top: -7.5vw;
-  left: -7.5vw;
+  left: -7vw;
   z-index: 5;
 }
 
@@ -126,7 +126,7 @@ h6.career {
 .star img {
   height: 17px;
   width: auto;
-  padding-right: 1%;
+  padding-right: 2px;
 }
 
 .back-moji {

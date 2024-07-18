@@ -22,6 +22,12 @@
   position: relative;
   z-index: 100;
   /* background-color: blue; */
+  .konpake_mb {
+    display: none;
+  }
+  .joyl_mb {
+    display: none;
+  }
 }
 
 .sub-title {
@@ -64,6 +70,10 @@
 
 .top-img img {
   width: 100%;
+}
+
+.fuku-img_mb {
+  display: none;
 }
 
 .right-width {
@@ -469,6 +479,7 @@
   margin-bottom: 24px;
 }
 
+
 .copy-box h3 {
   margin-bottom: 16px;
 }
@@ -612,6 +623,10 @@ img.ten-logo {
 .joyl-img img {
   width: 100%;
   border: 0.5px solid #333;
+}
+
+.joyl-before2 {
+  display: none;
 }
 
 /* load */
