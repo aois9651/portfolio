@@ -178,18 +178,17 @@ h3.small-name {
   }
 }
 
-.circle {
+/* .circle {
   width: 40px;
   height: 40px;
   border: 1px #fff solid;
   border-radius: 50%;
-
-}
+} */
 
 .g-nav-contents h2 {
   /* font-size: 4.6vw; */
   line-height: 1;
-  margin-bottom: 24px;
+  margin-bottom: 16px;
 
 }
 
