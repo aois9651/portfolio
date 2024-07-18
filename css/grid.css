@@ -10,8 +10,9 @@
   width: 10vw;
   height: auto;
   position: fixed;
-  top: 50px;
-  right: 45vw;
+  top: 140px;
+  right: 50%;
+  transform: translateX(50%);
   z-index: 9999;
 }
 
@@ -98,7 +99,7 @@
 
 .box-7 {
   grid-column: 1 / 4;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .box-8 {
@@ -109,7 +110,7 @@
 .box-9 {
   grid-column: 2 / 4;
   grid-row: 9 / 10;
-  font-size: 32px;
+  font-size: 24px;
 }
 
 .box-10 {
@@ -119,7 +120,7 @@
 
 .box-11 {
   grid-column: 1 / 4;
-  font-size: 48px;
+  font-size: 32px;
 }
 
 .box-12 {
@@ -172,10 +173,18 @@
 
 .box-22 {
   grid-column: 3 / 5;
+  word-break: break-all;
+  h2 {
+    font-size: 3vw;
+  }
 }
 
 .box-23 {
   grid-row: 4 / 5;
+}
+
+.box-37 {
+  font-size: 24px;
 }
 
 
@@ -206,7 +215,7 @@
   opacity: 0;
   transition: .4s ease-in-out;
   transform: translateY(-100%);
-  background-color: #fbdc00;
+  background-color: #fadb00;
   width: 100%;
   height: 100%;
 }
@@ -262,7 +271,7 @@
   opacity: 0;
   transition: .4s ease-in-out;
   transform: translateY(-100%);
-  background-color: #d4f028;
+  background-color: #e5ff0a;
   width: 100%;
   height: 100%;
 }
@@ -305,6 +314,14 @@
   width: 100%;
   height: 100%;
   padding: 3%;
+  text-align: left;
+  h6 {
+    padding-top: 4px;
+  }
+}
+
+.bgUD span.cap2 {
+  color: #000;
 }
 
 .bgUD:hover span.cap{
@@ -342,7 +359,7 @@
   top: 0;
   bottom: 0;
   text-transform: uppercase;
-  font-size: 1vw;
+  font-size: 2cqb;
   transition: all 0.5s cubic-bezier(0,0,0,1);
 }
 

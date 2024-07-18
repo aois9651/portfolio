@@ -253,7 +253,7 @@
   opacity: 0;
   transition: .4s ease-in-out;
   transform: translateY(-100%);
-  background-color: #d4f028;
+  background-color: #e5ff0a;
   width: 100%;
   height: 100%;
 }
@@ -291,12 +291,20 @@
   left: 50%;
   transform: translate(-50%,-50%);
   color: #fff;
-  line-height: 1.2;
+  line-height: 1;
   overflow: wrap;
   width: 100%;
   height: 100%;
   padding: 3%;
+  h6 {
+    padding-top: 4px;
+  }
 }
+
+.bgUD span.cap2 {
+  color: #000;
+}
+
 
 .bgUD:hover span.cap{
 	opacity:1;

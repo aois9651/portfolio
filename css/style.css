@@ -66,18 +66,18 @@ p {
 
 .header-bg {
   width: 80%;
-  height: 324px;
+  height: 35vw;
   box-sizing: border-box;
   margin: 32px auto 0px;
   /* background-color: aqua; */
   position: relative;
 }
 
-.p-img img {
+/* .p-img img {
   height: 214px;
   margin-top: 23px;
   margin-left: 16px;
-}
+} */
 
 .big-header {
   position: absolute;
