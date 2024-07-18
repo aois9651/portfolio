@@ -165,10 +165,14 @@ h3.small-name {
   cursor: pointer;
 }
 
+.contents-click {
+  margin-top: 24px;
+}
+
 .g-nav-contents {
   position: absolute;
   /* right: 0px; */
-  padding-top: 40px;
+  padding-top: 16px;
   /* text-align: right; */
   text-align: left;
   li {
@@ -188,7 +192,7 @@ h3.small-name {
 .g-nav-contents h2 {
   /* font-size: 4.6vw; */
   line-height: 1;
-  margin-bottom: 16px;
+  margin-bottom: 8px;
 
 }
 
