@@ -146,7 +146,7 @@ h2.small-name {
 }
 
 .g-nav-main h1{
-  font-size: 5.5vw;
+  font-size: 64px;
 }
 
 .g-nav-main li:hover {
@@ -160,8 +160,9 @@ h2.small-name {
 }
 
 .g-nav-contents h2 {
-  font-size: 2.5vw;
-  line-height: 3.2vw;
+  font-size: 40px;
+  line-height: 0.8;
+  margin-bottom: 16px;
 
 }
 

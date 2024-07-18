@@ -15,7 +15,7 @@ h1 {
   font-size: 96px;
   font-family: 'Helvetica Neue', sans-serif;
   font-weight: 700;
-  line-height: 0.8;
+  line-height: 1;
   /* overflow-wrap: break-word; */
   /* background-color: tomato; */
 }
@@ -157,7 +157,7 @@ ul.content-list {
   position: relative;
   width: 80vw;
   height: 400px;
-  margin: 10vw 0 3vw 10vw;
+  margin: 15vw 0 3vw 10vw;
   /* background-color: violet; */
 }
 
@@ -206,7 +206,7 @@ ul.content-list {
 
 .fadeUp {
   animation-name: fadeUpAnime;
-  animation-duration: 0.5s;
+  animation-duration: 1s;
   animation-fill-mode: forwards;
   opacity: 0;
 }

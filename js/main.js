@@ -15,6 +15,17 @@ $(function () {
   });
 });
 
+
+// contents click 
+
+$(function(){
+  $('#contents-button').on('click', function(){
+    $('.g-nav-contents-box').removeClass('none2');
+    return false;
+  });
+});
+
+
 // title top
 
 function ScrollAnime2() {
@@ -197,47 +208,21 @@ $('#topbtn6').on('click', function () {
 
 // fadeUpTrigger
 
-function fadeAnime() {
-  $('.fadeUpTrigger').each(function () {
-    var elemPos = $(this).offset().top + 50;
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass('fadeUp');
+let fadeInTarget = document.querySelectorAll('.fadeUpTrigger');
+window.addEventListener('scroll', () => {
+  for (let i = 0; i < fadeInTarget.length; i++){
+    const rect = fadeInTarget[i].getBoundingClientRect().top;
+    const scroll = window.pageYOffset || document.documentElement.scrollTop;
+    const offset = rect + scroll;
+    const windowHeight = window.innerHeight; // 現在のブラウザの高さ
+    if (scroll > offset - windowHeight + 150) {
+      fadeInTarget[i].classList.add('fadeUp');
     } else {
-      $(this).removeClass('fadeUp');
+      fadeInTarget[i].classList.remove('fadeUp');
     }
-  });
-}
-
-$(window).scroll(function (){
-  fadeAnime();
+  }
 });
 
-$(window).on('load', function(){
-  delayScrollAnime();
-});
-
-function fadeAnime2() {
-  $('.rotateTrigger').each(function () {
-    var elemPos = $(this).offset().top + 50;
-    var scroll = $(window).scrollTop();
-    var windowHeight = $(window).height();
-    if (scroll >= elemPos - windowHeight) {
-      $(this).addClass('rotateY');
-    } else {
-      $(this).removeClass('rotateY');
-    }
-  });
-}
-
-$(window).scroll(function (){
-  fadeAnime2();
-});
-
-$(window).on('load', function(){
-  delayScrollAnime2();
-});
 
 // Emblem
 
@@ -266,7 +251,6 @@ Emblem.init('.emblem2');
 Emblem.init('.emblem3');
 Emblem.init('.emblem4');
 Emblem.init('.emblem5');
-Emblem.init('.emblem6');
 
 
 // load

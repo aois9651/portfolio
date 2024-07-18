@@ -145,7 +145,10 @@ ul.content-list {
   height: auto;
   position: fixed;
   top: 120px;
-  right: 45vw;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX( -50%);
   z-index: 9999;
 }
 
