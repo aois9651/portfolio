@@ -515,7 +515,8 @@
   position: absolute;
   left: 5px;
   bottom: 12px;
-  list-style: inside;
+  /* list-style: inside; */
+  list-style-type: disc;
   z-index: 998;
 }
 
