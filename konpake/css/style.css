@@ -17,7 +17,7 @@ body {
   width: 100vw;
   height: 100vh;
   z-index: -1;
-  background-image: url(../image/konoake_backimg.gif); 
+  background-image: url(../image/kp_back_pc_2.gif); 
   background-size: 100% auto;
   background-repeat: repeat-y!;
   background-position-y: 0;
@@ -336,6 +336,32 @@ h4.caption {
 
 
 @media screen and (max-width:700px) {
+
+  .back-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url(../image/kp_back_mb.gif); 
+    background-size: 100% auto;
+    background-repeat: repeat-y!;
+    background-position-y: 0;
+  }
+
+  .back-img-repeat {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    background-image: url(../image/kp_back_mb_repeat.gif); 
+    background-size: 100% auto;
+    background-repeat: repeat-y!;
+    background-position-y: 0;
+  }
 
   .nav {
     display: block;

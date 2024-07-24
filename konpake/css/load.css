@@ -2,6 +2,7 @@
 
 #contents {
   display: none;
+
 }
 
 #showloading {
@@ -36,9 +37,9 @@
   width: 90vw;
   height: auto;
   position: absolute;
-  top: 50%;
+  top: 20vh;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
   font-size: 6vw;
   font-weight: 900;
   /* background-color: yellow; */
@@ -61,4 +62,17 @@
 p {
   cursor: pointer;
   text-align: center;
+}
+
+.back-img-repeat {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  background-image: url(../image/kp_back_pc_repeat.gif); 
+  background-size: 100% auto;
+  background-repeat: repeat-y!;
+  background-position-y: 0;
 }
