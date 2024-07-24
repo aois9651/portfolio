@@ -394,6 +394,7 @@ footer a {
 
 .footer-box {
   width: 90%;
+  height: 700px;
   margin: 0 auto;
 }
 
@@ -494,14 +495,14 @@ p.small {
   padding: 24px 0 16px;
 }
 
-.pay-logo ul {
+/* .pay-logo ul {
   margin-top: 8px;
   display: flex;
 }
 
 .pay-logo ul li {
   margin: 0 8px 32px 0 ;
-}
+} */
 
 .fadeUpTrigger {
   opacity: 0;
