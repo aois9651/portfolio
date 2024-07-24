@@ -220,7 +220,7 @@ img.iphone {
 
 .p-goto-nav__lists2 {
   /* margin-top: 8px; */
-  list-style: inside;
+  list-style-type: disc;
   li {
     height: 20px;
   }
