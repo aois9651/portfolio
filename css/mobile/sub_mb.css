@@ -64,7 +64,7 @@ h3.concept {
 }
 
 .item-list {
-  list-style: inside;
+  list-style-type: disc;
   position: relative;
   z-index: 998;
   li {
