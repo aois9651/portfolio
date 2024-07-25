@@ -66,6 +66,7 @@ h3.concept {
 .item-list {
   list-style-type: disc;
   position: relative;
+  left: 20px;
   z-index: 998;
   li {
     height: 16px;
@@ -220,6 +221,8 @@ img.iphone {
 
 .p-goto-nav__lists2 {
   /* margin-top: 8px; */
+  position: relative;
+  left: 20px;
   list-style-type: disc;
   li {
     height: 20px;

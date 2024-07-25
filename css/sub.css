@@ -169,6 +169,7 @@
 .item-list {
   list-style-type: disc;
   position: relative;
+  left: 20px;
   z-index: 998;
 }
 
@@ -513,7 +514,7 @@
 .left-width ul {
   /* background-color: violet; */
   position: absolute;
-  left: 5px;
+  left: 15px;
   bottom: 12px;
   /* list-style: inside; */
   list-style-type: disc;
