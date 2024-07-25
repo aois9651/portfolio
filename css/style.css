@@ -158,7 +158,8 @@ ul.content-list {
   width: 80vw;
   height: 400px;
   margin: 15vw 0 3vw 10vw;
-  /* background-color: violet; */
+  background-color: violet;
+
 }
 
 #topbtn6 {
@@ -171,7 +172,7 @@ ul.content-list {
 
 .contact {
   position: absolute;
-  bottom: 0;
+  bottom: 5vw;
   right: 0;
   text-align: right;
   p {

@@ -606,17 +606,14 @@ img.iphone {
 
 
 .ten-position {
-  width: 30%;
-  height: 68vh;
+  width: 100px;
   margin: 0 auto;
   /* background-color: #d7271c; */
 
 }
 
 img.ten-logo {
-  width: auto;
-  height: 68vh;
-  padding: 0 auto;
+  width:  100%;
 }
 
 .ten-typo {
